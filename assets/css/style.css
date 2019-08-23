@@ -1,0 +1,45 @@
+    body {
+        background: #cccccc;
+    }
+    
+    #header a:hover {
+        color: #ffffff;
+    }
+    
+    #welcome {
+        min-height: 400px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.74), rgb(197, 83, 140), rgb(255, 255, 255));
+    }
+    
+    #brand {
+        font-size: 400%;
+        /*text-transform: uppercase;*/
+        text-shadow: 1px 1px 5px #000;
+    }
+    
+    #title {
+        font-size: 200%;
+        font-weight: 400;
+        text-shadow: 1px 1px 5px #000;
+    }
+    
+    h2,
+    h4 {
+        color: rgb(139, 92, 139);
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 5px #fff;
+    }
+    
+    #about {
+        margin-top: -150px;
+    }
+    
+    hr {
+        border-width: 2px;
+        background: rgb(197, 83, 140);
+    }
+    
+    #portfolio .card {
+        border-top: 3px, violet;
+    }
