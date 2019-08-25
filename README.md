@@ -1,7 +1,7 @@
 # Portfolio
 ## Welcome to My Portfolio
 
-### It is a single page and smooth scrollable portfolio site. 
+### It is a single page and smoothly scrollable portfolio site. 
 
 ## Technology used to Built
 * html
