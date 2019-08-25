@@ -1,14 +1,15 @@
 # Portfolio
 ## Welcome to My Portfolio
 
-### It is a single page and smoothly scrollable portfolio site. 
-
+### It is a responsive, single page and smoothly scrollable portfolio site. 
 ## Technology used to Built
 * html
 * css
 * Bootstrap
 * JavaScript
 * Google font and font awesome
+
+===========================================
 
 ## Portfolio screenshot
 
