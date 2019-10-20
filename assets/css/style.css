@@ -8,7 +8,7 @@
             font-family: 'Monoton', cursive;
             font-size: 20px;
             font-weight: bold;
-            color: rgba(255, 255, 255, 0.801);
+            color: orange;
         }
         
         #header a:hover {
@@ -38,10 +38,10 @@
         }
         
         h2 {
-            color: rgb(148, 108, 148);
+            color: orange;
             font-family: Georgia, Times, "Times New Roman", serif;
             font-weight: bold;
-            text-shadow: 1px 1px 5px #000;
+            text-shadow: 1px 1px 1px #000;
         }
         
         h4 {
