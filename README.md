@@ -1,20 +1,16 @@
 # Portfolio
-## Welcome to My Portfolio
+## Welcome to My Portfolio - Full Stack Web Developer
 
 ### It is a responsive, single page and smoothly scrollable portfolio site. 
+
 ## Technology used to Built
-* html
-* css
+* HTML
+* CSS
 * Bootstrap
 * JavaScript
 * Google font and font awesome
 
 ===========================================
 
-## Portfolio screenshot
 
-<img src="https://raw.githubusercontent.com/HannaBella/Portfolio/master/assets/images/Hanna-Portfolio.png" height=300 width=400>
-
-## Authors
-* **Hanna Tefera**
 
