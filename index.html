@@ -26,15 +26,16 @@
             <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand" href="index.html" id="logo">Hanna</a>
+                    <a class="navbar-brand" href="landing.html" id="logo">Hanna</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item active"><a class="nav-link" href="#intro">About</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="landing.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#intro">About</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#portfolio">Project</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -45,14 +46,15 @@
         <!--Intro-->
         <div id="intro">
             <div class="container-fluid text-white text-center">
-                <h1 class="display-3 pt-5" id="brand">Hanna Tefera</h1>
-                <h3 id="title">Web Developer</h3>
+                <h1 class="display-3 pt-5" id="brand">I'm Hanna Tefera</h1>
+                <p id="title">Passionate about developing responsive and interactive apps.</p>
             </div>
         </div>
 
         <!--About-->
         <section id="about">
-            <div class="container bg-dark text-white" id="main">
+            <div class="container-fluid bg-dark text-white" id="main">
+                <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-12 mb-3">
                         <h2 class="sub-header pt-2">About Me</h2>
@@ -62,20 +64,21 @@
                         <img src="assets/images/my-pic.png" width="250" height="250" class="img-fluid rounded-top " alt="Hanna's Picture">
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12  " id="about-content">
-                        <p>Full Stack Web Developer with a background in Economics and life-long dedication to learning. Accomplished AS Degree in IT and I'm currently enrolled in UCSD Extension Coding Bootcamp program for Full Stack Web Development. The
-                            program greatly enhanced my skills in HTML, CSS, Javascript, JQuery, NodeJs and MySQL. I'm enthusiastic about developing websites and apps, with a focus on responsive design and development. Effective team player and known
+                        <p>Full Stack Web Developer with a background in Economics and life-long dedication to learning. Accomplished AS Degree in IT and certificate in Full Stack Web Development from UCSD Extension Coding Bootcamp program. The
+                            program greatly enhanced my skills in HTML, CSS, Javascript, JQuery, NodeJs, MySQL, ReactJs, and MongoDB. I'm enthusiastic about developing websites and apps, with a focus on responsive design and development. Effective team player and known
                             as detail oriented, problem-solver.
                         </p>
                     </div>
 
                 </div>
-
+                </div>
             </div>
         </section>
 
         <!--Portfolio-->
         <section id="portfolio">
-            <div class="container bg-dark mt-5">
+            <div class="container-fluid bg-dark mt-5">
+                <div class="container">
                 <div class="row justify-content-center mb-3">
                     <div class="col-md-12">
                         <h2 class="sub-header pt-2">Portfolio</h2>
@@ -103,15 +106,25 @@
                     </div>
                     <div class="col-md-4 my-3">
                         <div class="card">
-                            <img src="assets/images/GifTastic.png" height="150" target="_blank" class="card-img-top">
+                            <img src="assets/images/FriendFinder.png" height="150" target="_blank" class="card-img-top">
                             <div class="card-body">
-                                <h4 class="card-title">Gif Tastic</h4>
-                                <a href="https://hannabella.github.io/GifTastic/" target="_blank" class="btn btn-light mr-2">Live Demo</a>
-                                <a href="https://github.com/HannaBella/GifTastic.git" target="_blank" class="btn btn-light">Github</a>
+                                <h4 class="card-title">Friend Finder</h4>
+                                <a href="https://nameless-river-39642.herokuapp.com/" target="_blank" class="btn btn-light mr-2">Live Demo</a>
+                                <a href="https://github.com/HannaBella/FriendFinder.git" target="_blank" class="btn btn-light">Github</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 my-3">
+                    <div class="col-md-4 my-3">
+                            <div class="card">
+                                <img src="assets/images/GifTastic.png" height="150" target="_blank" class="card-img-top">
+                                <div class="card-body">
+                                    <h4 class="card-title">Gif Tastic</h4>
+                                    <a href="https://frozen-inlet-71327.herokuapp.com/" target="_blank" class="btn btn-light mr-2">Live Demo</a>
+                                    <a href="https://github.com/HannaBella/Burger.git" target="_blank" class="btn btn-light">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-4 my-3">
                         <div class="card ">
                             <img src="assets/images/CinephileCentral.png" height="150" class="card-img-top">
                             <div class="card-body">
@@ -121,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 my-3">
+                    <div class="col-md-4 my-3">
                         <div class="card ">
                             <img src="assets/images/chefMEup.png" height="150" class="card-img-top">
                             <div class="card-body">
@@ -132,17 +145,20 @@
                         </div>
                     </div>
                 </div>
+                </div>
 
             </div>
         </section>
 
         <!--Contact-->
         <section class="contact" id="contact">
-            <div class="container mt-5 bg-dark">
+            <div class="container-fluid mt-5 bg-dark">
+                <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 mb-3">
                         <h2 class="sub-header pt-2">Contact</h2>
                         <hr>
+                        <p>You can reach me...</p>
                     </div>
                     <div class="col-md-3 col-xs-4 my-3 text-center">
                         <a href="https://www.linkedin.com/in/hanna-tefera-2b6953185/"> <i class="fa fa-linkedin"></i></a>
@@ -154,7 +170,7 @@
                     </div>
                     <div class="col-md-3 my-3 col-xs-4 text-center">
 
-                        <a href="mailto:hannatefera1@gmail.com" target="_blank"><i class = "fa fa-envelope-square 3x"></i></a>
+                        <a href="mailto:hanna1tefera@gmail.com" target="_blank"><i class = "fa fa-envelope-square 3x"></i></a>
 
                     </div>
 
@@ -164,6 +180,7 @@
 
                         <a href="assets/images/HannaResume.pdf" target="_blank"><button type="button" class="btn btn-light">Resume</button></a>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
