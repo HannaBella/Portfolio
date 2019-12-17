@@ -68,11 +68,11 @@
             text-shadow: 1px 1px 1px #000;
         }
         
-        h4 {
-            color: rgb(139, 92, 139);
+        #portfolio h4{
+            color: rgb(197, 83, 140);
             font-family: Georgia, Times, "Times New Roman", serif;
             font-weight: bold;
-            text-shadow: 1px 1px 5px #fff;
+            
         }
         
         #about {
