@@ -7,10 +7,12 @@
             background: url("../images/landingBg.jpg");
         }
         #landing h1{
+            text-align: center;
             font-size: 4rem;
             color: white;
         }
         #landing h3{
+            text-align: center;
             font-size: 2rem;
             color: white;
         }
@@ -104,7 +106,7 @@
             font-size: 22px;
         }
         .contact p {
-            font-size: 110%;
+            
             font-weight: 50;
             color:white;
         }
