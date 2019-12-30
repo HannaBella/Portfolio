@@ -16,6 +16,10 @@
             font-size: 2rem;
             color: white;
         }
+        #page{
+            font-size: 1.5rem;
+            margin-top: 30px;
+        }
         #page:hover {
             border: 2px solid #fff !important;
             background: rgb(197, 83, 140) !important;
@@ -70,6 +74,10 @@
             text-shadow: 1px 1px 1px #000;
         }
         
+        .description p{
+            color: white;
+            font-size: 18px;
+        }
         #portfolio h4{
             color: rgb(197, 83, 140);
             font-family: Georgia, Times, "Times New Roman", serif;
@@ -106,7 +114,6 @@
             font-size: 22px;
         }
         .contact p {
-            
             font-weight: 50;
             color:white;
         }
